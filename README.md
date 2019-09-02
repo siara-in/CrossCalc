@@ -63,7 +63,7 @@ Using `±` symbol adds a minus at the beginning of the expression.  If there is 
 
 ### Square
 
-Pressing 
+Pressing <em>x<sup>2</sup></em> applies `sqr()` function to the current expression.
 
 ### Square Root
 

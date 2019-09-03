@@ -1,6 +1,6 @@
 # CrossCalc
 
-CrossCalc is day to day Scientific Calculator that can be used on all devices.  It is available for Android phones, tablets, iPhone, iPad, Mac, Windows and Linux.
+CrossCalc is day to day Scientific Calculator that can be used on Android phones, tablets, iPhone, iPad, Mac, Windows and Linux and the browser.
 
 It asks for no permissions and does not show any ads.
 
@@ -20,7 +20,7 @@ The interactive mode is same as any regular calculator that responds to pressing
 
 ## Direct expression input
 
-Alternatively, complex expressions can be composed with brackets, functions and operators and evaluated.
+Alternatively, complex expressions can be composed with brackets, functions and operators, and evaluated.
 
 # Responsive UI
 
@@ -53,11 +53,11 @@ For all other cases, using `%` function simply divides by 100.
 
 The correction symbol (`◅`) removes the last entered symbol from the expression for correction.
 
-If the expression is being directly entered, using the correction symbol removes the symbol just before the current position.
+If the expression is being directly entered, using the correction symbol removes the symbol just before the current cursor position.
 
 ### Equal symbol
 
-The `=` symbol is used to produce the result of the expression.  On the keyboard, either `=` or `Enter` key may be used for this purpose.
+The `=` symbol is used to produce the result of the expression.  On the keyboard, either `=` or `Enter` key may be used.
 
 ### Plus or minus
 
@@ -65,13 +65,13 @@ Using `±` symbol adds a minus at the beginning of the expression.  If there is 
 
 ### All cancel (ac)
 
-The `ac` pad is used to clear any expression and reset it to `0` to start calculations afresh.  On the keyboard, `Esc` key may be pressed for this purpose.
+The `ac` pad is used to clear any expression and reset it to `0` to start calculations afresh.  On the keyboard, `Esc` key may be pressed to clear all.
 
 ## Advanced
 
 ### Square
 
-Pressing <em>x<sup>2</sup></em> applies `sqr()` function to the current expression, multiplying it with itself.
+Pressing `<em>x<sup>2</sup></em>` applies `sqr()` function to the current expression, multiplying it with itself.
 
 ### Square Root
 
@@ -79,7 +79,7 @@ Pressing `√` applies `sqrt()` function to the current expression, to find the 
 
 ### Cube
 
-Pressing <em>x<sup>3</sup></em> applies `cube()` function to the current expression, multiplying it with itself twice.
+Pressing `<em>x<sup>3</sup></em>` applies `cube()` function to the current expression, multiplying it with itself twice.
 
 ### Cube Root
 
@@ -99,23 +99,23 @@ Pressing `ln` applies `loge()` function to the current expression, to find the l
 
 ### Decimal logarithm
 
-Pressing <em>log<sub>10</sub></em> applies `log10()` function to the current expression, to find the logarithm of it using base 10.
+Pressing `<em>log<sub>10</sub></em>` applies `log10()` function to the current expression, to find the logarithm of it using base 10.
 
 ### Binary Logarithm
 
-Pressing <em>log<sub>2</sub></em> applies `log2()` function to the current expression, to find the logarithm of it using base 2.
+Pressing `<em>log<sub>2</sub></em>` applies `log2()` function to the current expression, to find the logarithm of it using base 2.
 
 ### Natural Exponent
 
-Pressing <em>e<sup>x</sup></em> applies `powe()` function to the current expression, to find `e` (Euler's constant) raised to the power of it.
+Pressing `<em>e<sup>x</sup></em>` applies `powe()` function to the current expression, to find `e` (Euler's constant) raised to the power of it.
 
 ### Power of 10
 
-Pressing <em>10<sup>x</sup></em> applies `pow(10, x)` function to the current expression, to find `10` raised to the power of it.
+Pressing `<em>10<sup>x</sup></em>` applies `pow(10, x)` function to the current expression, to find `10` raised to the power of it.
 
 ### To the power of any
 
-Pressing <em>x<sup>y</sup></em> applies `pow(x, y)` function to the current expression, to have it multiplied with itself `y` times.
+Pressing `<em>x<sup>y</sup></em>` applies `pow(x, y)` function to the current expression, to have it multiplied with itself `y` times.
 
 ### Absolute value
 
@@ -123,11 +123,11 @@ Pressing `|x|` applies `abs()` function to the current expression, to remove the
 
 ### Permutations
 
-Pressing <em><sup>n</sup>P<sub>r</sub></em> applies `npr(n, r)` function to the current expression, to find the number of arrangements possible for `n` elements, taken `r` at a time.
+Pressing `<em><sup>n</sup>P<sub>r</sub></em>` applies `npr(n, r)` function to the current expression, to find the number of arrangements possible for `n` elements, taken `r` at a time.
 
 ### Combinations
 
-Pressing <em><sup>n</sup>C<sub>r</sub></em> applies `npr(n, r)` function to the current expression, to find the number of selections possible for `n` elements, taken `r` at a time.
+Pressing `<em><sup>n</sup>C<sub>r</sub></em>` applies `npr(n, r)` function to the current expression, to find the number of selections possible for `n` elements, taken `r` at a time.
 
 ### Euler's constant (e)
 
@@ -145,35 +145,31 @@ Pressing `mod` appends the `%` (modulo) binary operator, which returns the remai
 
 ### Hexadecimal keypad
 
-A keypad with keys `1` to `9` and `A` to `F` is provided to input hexadecimal numbers. Before keying in `hex` numbers, the prefix `0x` is to be used.  Press (<em>0<sub>x</sub></em>) on the function pad or the shortcut key `x` from keyboard to prefix `0x`.
+A keypad with keys `1` to `9` and `A` to `F` is provided to input hexadecimal numbers. Before keying in `hex` numbers, the prefix `0x` is to be used.  Press (`<em>0<sub>x</sub></em>`) on the function pad or the shortcut key `x` from keyboard to prefix `0x`.
 
 ### Hexadecimal Conversion
 
-The function pad <em>▻<sub>16</sub></em> is used to convert the current expression to Hexadecimal notation.  For this the function `toHex()` is used.
+The function pad `<em>▻<sub>16</sub></em>` is used to convert the current expression to Hexadecimal notation.  For this the function `toHex()` is used.
 
 ### Octal Conversion
 
-The function pad <em>▻<sub>8</sub></em> is used to convert the current expression to Octal notation.  For this the function `toOct()` is used.
+The function pad `<em>▻<sub>8</sub></em>` is used to convert the current expression to Octal notation.  For this the function `toOct()` is used.
 
 ### Binary Conversion
 
-The function pad <em>▻<sub>2</sub></em> is used to convert the current expression to Binary notation.  For this the function `toBin()` is used.
+The function pad `<em>▻<sub>2</sub></em>` is used to convert the current expression to Binary notation.  For this the function `toBin()` is used.
 
 ### Decimal Conversion
 
-The function pad <em>▻<sub>10</sub></em> is used to convert the current expression to Decimal notation.  For this the function `toDec()` is used.
+If the current expression is in Hex, Octal or Binary notation, pressing `=` converts it to Decimal notation.
 
 ### Boolean (bitwise) operators
 
-`and`, `or`, `not` and `xor` are the four bitwise operators supported on the function pad. Of these, `not` is a unary operator which inverts the bits against 0xFFFFFFFF and applies the function `not()`.
-
-### Boolean (bitwise) operators
-
-`and`, `or`, `not` and `xor` are the four bitwise operators supported on the function pad. Of these, `not` is a unary operator which inverts the bits against 0xFFFFFFFF and applies the function `not()`.  Others are binary operators.
+`and`, `or`, `not` and `xor` are the four bitwise operators supported on the function pad. Of these, `not` is a unary operator which inverts the bits against 0xFFFFFFFF and applies the function `not()`.  The others are binary operators.
 
 ### Bit Shift operators
 
-Bit shift binary operators `<<` (left) and `>>` (right) are used to shift bits of a given expression given number of times.
+Bit shift binary operators `<<` (left) and `>>` (right) are used to shift bits of a given expression, a given number of times.
 
 ### Radix indication
 
@@ -191,7 +187,7 @@ The basic functions are evaluated using the functions `sin()`, `cos()`, `tan()`,
 
 ### Inverse functions
 
-The functions <em>sin<sup>-1</sup></em>, <em>cos<sup>-1</sup></em> and <em>tan<sup>-1</sup></em> are inverses of `sin()`, `cos()` and `tan()` and are represented by `asin()`, `acos()` and `atan()` respectively.
+The functions `<em>sin<sup>-1</sup></em>`, `<em>cos<sup>-1</sup></em>` and `<em>tan<sup>-1</sup></em>` are inverses of `sin()`, `cos()` and `tan()` and are represented by `asin()`, `acos()` and `atan()` respectively.
 
 ### Hyperbolic functions
 

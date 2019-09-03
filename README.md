@@ -34,7 +34,7 @@ The functions supported by the calculator are described in the following section
 
 ### Arithmetic
 
-Basic arithmetic operators such as +, -, ×, ÷ are available as in any regular calculator.
+Basic arithmetic operators such as `+`, `-`, `×`, `÷` and `.` are available as in any regular calculator.
 
 ### Brackets
 
@@ -55,9 +55,17 @@ The correction symbol (`◅`) removes the last entered symbol from the expressio
 
 If the expression is being directly entered, using the correction symbol removes the symbol just before the current position.
 
+### Equal symbol
+
+The `=` symbol is used to produce the result of the expression.  On the keyboard, either `=` or `Enter` key may be used for this purpose.
+
 ### Plus or minus
 
 Using `±` symbol adds a minus at the beginning of the expression.  If there is already a minus present, it removes it.
+
+### All cancel (ac)
+
+The `ac` pad is used to clear any expression and reset it to `0` to start calculations afresh.  On the keyboard, `Esc` key may be pressed for this purpose.
 
 ## Advanced
 
@@ -131,15 +139,78 @@ Pressing `rnd` applies function `rnd()`, which returns a random number less than
 
 ### Modulo operation
 
+Pressing `mod` appends the `%` (modulo) binary operator, which returns the remainder after the first number is divided by the second.
+
 ## Programmer
 
 ### Hexadecimal keypad
 
+A keypad with keys `1` to `9` and `A` to `F` is provided to input hexadecimal numbers. Before keying in `hex` numbers, the prefix `0x` is to be used.  Press (<em>0<sub>x</sub></em>) on the function pad or the shortcut key `x` from keyboard to prefix `0x`.
+
 ### Hexadecimal Conversion
 
+The function pad <em>▻<sub>16</sub></em> is used to convert the current expression to Hexadecimal notation.  For this the function `toHex()` is used.
+
+### Octal Conversion
+
+The function pad <em>▻<sub>8</sub></em> is used to convert the current expression to Octal notation.  For this the function `toOct()` is used.
+
+### Binary Conversion
+
+The function pad <em>▻<sub>2</sub></em> is used to convert the current expression to Binary notation.  For this the function `toBin()` is used.
+
+### Decimal Conversion
+
+The function pad <em>▻<sub>10</sub></em> is used to convert the current expression to Decimal notation.  For this the function `toDec()` is used.
+
+### Boolean (bitwise) operators
+
+`and`, `or`, `not` and `xor` are the four bitwise operators supported on the function pad. Of these, `not` is a unary operator which inverts the bits against 0xFFFFFFFF and applies the function `not()`.
+
+### Boolean (bitwise) operators
+
+`and`, `or`, `not` and `xor` are the four bitwise operators supported on the function pad. Of these, `not` is a unary operator which inverts the bits against 0xFFFFFFFF and applies the function `not()`.  Others are binary operators.
+
+### Bit Shift operators
+
+Bit shift binary operators `<<` (left) and `>>` (right) are used to shift bits of a given expression given number of times.
+
+### Radix indication
+
+For the purpose of entry of numbers in other bases such as hexadecimal (16), octal (8) and binary (2), three prefixes are used, viz. `0x`, `0o` and `0b` respectively.
+
+For instance, `0xAA55` represents the decimal number `43605` in decimal and the same can be entered as `0o125125` in octal and `0b1010101001010101` in binary.
+
+This is useful for converting between the bases and also applying bitwise operators on them.
+
+## Trigonometric functions
+
+### Basic
+
+The basic functions are evaluated using the functions `sin()`, `cos()`, `tan()`, `cosec()`, `sec()` and `cot()`.  The input is assumed to be in `degrees`.
+
+### Inverse functions
+
+The functions <em>sin<sup>-1</sup></em>, <em>cos<sup>-1</sup></em> and <em>tan<sup>-1</sup></em> are inverses of `sin()`, `cos()` and `tan()` and are represented by `asin()`, `acos()` and `atan()` respectively.
+
+### Hyperbolic functions
+
+The functions `sinh()`, `cosh()`, `tanh()`, `asinh()`, `acosh()` and `atanh()` represent the hyperbolic counterparts of the circular trigonometric equivalent.
+
+### Degree to Radian conversion
+
+The functions `▻deg` and `▻rad` convert from degrees to radians and vice versa respectively.
 
 ## Expression recall
 
-## All cancel (ac)
+When the result is shown, the corresponding expression that was evaluated is also shown above it.  It may be recalled for further modification and re-evaluation by tapping on it.
 
 # Support
+
+If you face any problems or issues, please create an issue here or write to `admin@siara.in`.
+
+# Credits
+
+The Application icon was designed by (Double J Design, UK)[http://www.doublejdesign.co.uk].
+
+This software was developed by Arundale Ramanathan (arun@siara.cc).

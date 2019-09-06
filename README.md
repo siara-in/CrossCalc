@@ -1,8 +1,6 @@
 # CrossCalc
 
-CrossCalc is day to day Scientific Calculator that can be used on Android phones, tablets, iPhone, iPad, Mac, Windows and Linux and the browser.
-
-It asks for no permissions and does not show any ads.
+CrossCalc is day to day Scientific Calculator that can be used on all your devices.  It asks for no permissions and does not show any ads.
 
 The User Interface is simple and intuitive with functions that are used in everyday life.  It also provides many advanced functions provided by modern Scientific calculators.
 

@@ -4,6 +4,16 @@ CrossCalc is day to day Scientific Calculator that can be used on all your devic
 
 The User Interface is simple and intuitive with functions that are used in everyday life.  It also provides many advanced functions provided by modern Scientific calculators.
 
+# Installation
+
+It is available on popular App stores as shown below:
+
+- [MacOS](https://apps.apple.com/app/id1479319090)
+- [iPhone/iPad](https://apps.apple.com/app/id1478997471)
+- [Android](https://play.google.com/store/apps/details?id=cc.siara.crosscalc)
+- [Windows 10 UWP](https://www.microsoft.com/en-us/p/cross-calculator/9n1zmzhw491l)
+- Linux - not available yet
+
 # Keyboard input
 
 The mouse, keyboard and touch pad can all be used to operate the Calculator.

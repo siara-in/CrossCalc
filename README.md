@@ -14,6 +14,8 @@ It is available on popular App stores as shown below:
 - [Windows 10 UWP](https://www.microsoft.com/en-us/p/cross-calculator/9n1zmzhw491l)
 - Linux - not available yet
 
+![](promo/calculator-695084_1280.png?raw=true)
+
 # Keyboard input
 
 The mouse, keyboard and touch pad can all be used to operate the Calculator.
